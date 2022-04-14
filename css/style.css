@@ -1,0 +1,208 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  background-color: #038C65;
+  height: 100vh;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  height: 20%;
+  border: 2px solid #025939;
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 20px auto;
+}
+
+.title h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 60px;
+  margin: 0;
+}
+
+.title button {
+  background-color: #8C3A32;
+  width: 40%;
+  height: 40px;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 5px;
+  border: none;
+}
+
+.title button:hover {
+  background-color: #e27369;
+  color: black;
+}
+
+#score1 {
+  position: absolute;
+  left: 10%;
+  top: 2%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+
+#score2 {
+  position: absolute;
+  right: 10%;
+  top: 2%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+
+#scoreP1 {
+  position: absolute;
+  left: 8%;
+  top: 3%;
+  width: 7%;
+  height: 10%;
+  background-color: #fff;
+  color: #023373;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+#scoreP2 {
+  position: absolute;
+  right: 8%;
+  top: 3%;
+  width: 7%;
+  height: 10%;
+  background-color: #fff;
+  color: #D92B5A;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60%;
+}
+
+.container .p1, .p2 {
+  width: 50%;
+  height: 100%;
+}
+
+h2 {
+  width: 80%;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  margin: 10px auto;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.container .p1 h2 {
+  color: #023373;
+}
+
+.container .p2 h2 {
+  color: #D92B5A;
+}
+
+img{
+  display: block;
+  height: 50%;
+  margin: 0 auto;
+}
+
+.war-cards {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  margin-top: 10px;
+}
+
+#battle, #clear-it {
+  position: absolute;
+  width: 20%;
+  height: 10%;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+#battle:hover, #clear-it:hover {
+  background-color: #fff;
+}
+
+#clear-it {
+  background-color: #e27369;
+}
+
+.war-cards .war-card {
+  width: 20%;
+  height: 100%;
+}
+
+#battle-card1 {
+  border: 1px solid black;
+}
+
+#battle-card2 {
+  border: 1px solid black;
+}
+
+.winner {
+  width: 60%;
+  height: 13%;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 3px auto;
+}
+
+.winner h3 {
+  color: #8C3A32;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 36px;
+  margin: 10px 0 0 0;
+  padding-top: 25px;
+  
+}
+
+h5 {
+  position: absolute;
+  width: 40%;
+  height: 15%;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 50px;
+  color: black;
+  background-color: rgb(255, 255, 0);
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-top: 30px;
+}
+
+.hidden{
+	display: none;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
